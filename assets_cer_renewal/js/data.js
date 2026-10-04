@@ -183,13 +183,12 @@ const DATA = {
     </div>
   `,
   "imgs": []
-},
-    {
+},{
   "id": "tr_attention",
   "parent": "training",
   "title": "訓練紀錄簿填寫注意事項",
   "short": "訓練紀錄簿自第一條船起即應開始填寫，並注意船章、簽署、總結報告、塗改及補簽等相關規定。",
-  "keywords": "訓練紀錄簿 第12頁 船員名單 船章 蓋章 公司審核 簽署人 C頁 總結報告 船長評語 評定意見 塗改 補簽 其他公司 非萬海 實習",
+  "keywords": "訓練紀錄簿 第12頁 船員名單 日期 船章 公司審核 蓋章 簽署人 C頁 總結報告 船長評語 評定意見 塗改 補簽 其他公司 非萬海 實習",
   "html": `
     <h3>一、上船前準備與基本填寫</h3>
 
@@ -208,11 +207,13 @@ const DATA = {
       或以較牢固的方式黏貼，避免航程期間脫落或遺失。
     </p>
 
+    <!-- 圖片預留位置：
     <div class="guide-image">
       <img src="assets_crew_cer_renewal/tr_attention_01.jpg"
            alt="訓練紀錄簿基本填寫範例"
            loading="lazy">
     </div>
+    -->
 
 
     <h3>二、簽署、蓋章與簽署人資料</h3>
@@ -233,11 +234,7 @@ const DATA = {
       若簽署人員基本資料表的欄位不足，可自行增加填寫欄位。
     </p>
 
-    <div class="guide-image">
-      <img src="assets_crew_cer_renewal/tr_attention_02.jpg"
-           alt="訓練紀錄簿簽署及蓋章範例"
-           loading="lazy">
-    </div>
+    <!-- 圖片預留位置：tr_attention_02.jpg -->
 
 
     <h3>三、總結報告與船長評語</h3>
@@ -255,15 +252,11 @@ const DATA = {
 
     <p>
       <strong>總結報告一定要填寫評定意見並完成簽署。</strong>
-      依官方審查規定，若總結報告未填寫評定意見，可能不予受理，
+      若總結報告未填寫評定意見，可能不予受理，
       因此下船前務必再次確認。
     </p>
 
-    <div class="guide-image">
-      <img src="assets_crew_cer_renewal/tr_attention_03.jpg"
-           alt="總結報告及船長評語填寫範例"
-           loading="lazy">
-    </div>
+    <!-- 圖片預留位置：tr_attention_03.jpg -->
 
 
     <h3>四、塗改、補簽及其他公司實習紀錄</h3>
@@ -281,8 +274,7 @@ const DATA = {
 
     <p>
       曾於其他公司船舶實習者，如後續以萬海船員身分辦理換證，
-      原有訓練紀錄中的簽名旁，可能需要再由萬海船上長官補簽，
-      請依實際換證資料要求辦理。
+      原有訓練紀錄中的簽名旁，可能需要再由萬海船上長官補簽。
     </p>
 
     <p>
@@ -291,18 +283,9 @@ const DATA = {
       避免下船後仍需將紀錄簿重新送回船上補辦。
     </p>
 
-    <div class="guide-image">
-      <img src="assets_crew_cer_renewal/tr_attention_04.jpg"
-           alt="訓練紀錄簿塗改及補簽範例"
-           loading="lazy">
-    </div>
+    <!-- 圖片預留位置：tr_attention_04.jpg -->
   `,
-  "imgs": [
-    "assets_crew_cer_renewal/tr_attention_01.jpg",
-    "assets_crew_cer_renewal/tr_attention_02.jpg",
-    "assets_crew_cer_renewal/tr_attention_03.jpg",
-    "assets_crew_cer_renewal/tr_attention_04.jpg"
-  ]
+  "imgs": []
 },
     {
       "id": "tr_submit",
