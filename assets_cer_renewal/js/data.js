@@ -42,6 +42,7 @@ const DATA = {
         "sg_twdocs",
         "sg_certs",
         "sg_other",
+        "sg_sash",
         "sg_download"
       ]
     }
@@ -343,6 +344,283 @@ const DATA = {
         ]
       ]
     },
+
+    {
+  "id": "sg_sash",
+  "parent": "sg",
+  "title": "SASH 小證｜上課與換證說明",
+  "short": "新加坡 SASH 補差訓註冊、報名、上課、測驗及證書下載方式。",
+  "keywords": "SASH 小證 新加坡 補差訓 性騷擾防治 反霸凌 MPA STEP Singapore Polytechnic SP PSSR CoC 線上課程 題庫 測驗 Final Assessment 電子證書",
+  "html": `
+    <div class="sash-guide">
+
+      <div class="notice-box">
+        <h3>為什麼需要 SASH 小證？</h3>
+        <p>
+          自 <strong>2026 年 1 月 1 日</strong>起，申請換發或重新核發新加坡適任證書
+          （CoC）時，須持有<strong>獨立 SASH（性騷擾防治與反霸凌）培訓證明</strong>，
+          或已完成納入 SASH 內容的新版 PSSR 課程。
+        </p>
+        <p>
+          現階段可透過 <strong>Singapore Polytechnic（SP）</strong> 的
+          <strong>STEP E-Learning</strong> 完成獨立 SASH 補差訓。
+        </p>
+      </div>
+
+      <h3>一、課程申請方式</h3>
+
+      <ol>
+        <li>
+          進入 Singapore Polytechnic 的 SASH 課程頁面，
+          點選頁面左下角的 <strong>Register</strong>。
+        </li>
+
+        <li>
+          進入 STEP 課程頁面後，閱讀課程說明並點選
+          <strong>Apply</strong>。
+        </li>
+
+        <li>
+          若尚未建立帳號，系統會顯示提示視窗，
+          點選 <strong>Sign in / Sign up</strong>。
+        </li>
+
+        <li>
+          登入頁面選擇
+          <strong>Sign in with Singpass / Student ID</strong>。
+        </li>
+
+        <li>
+          在 Singpass 選項下方選擇
+          <strong>Login with Email OTP</strong>，
+          輸入 Email 並取得 OTP 驗證碼完成登入。
+        </li>
+
+        <li>
+          第一次登入後須完成個人資料，
+          點選 <strong>manually update</strong>。
+        </li>
+
+        <li>
+          填寫所有紅色星號欄位：
+          <ul>
+            <li>Citizenship type：<strong>Foreigner</strong></li>
+            <li>Pass type：<strong>Others</strong></li>
+          </ul>
+        </li>
+
+        <li>
+          完成個人資料後，重新進入 SASH 課程頁面並點選
+          <strong>Apply</strong>。
+        </li>
+
+        <li>
+          非新加坡公民申請時，系統要求的證明文件請上傳
+          <strong>護照個人資料頁</strong>。
+        </li>
+
+        <li>
+          完成資料填寫後進入付款程序，
+          選擇適合的付款方式完成付款。
+        </li>
+      </ol>
+
+
+      <h3>二、付款後取得 Student ID</h3>
+
+      <ul>
+        <li>
+          付款完成後須等待 Singapore Polytechnic 審核。
+        </li>
+
+        <li>
+          審核完成後，STEP 會以 Email 寄送
+          <strong>Student ID</strong>。
+        </li>
+
+        <li>
+          依 Email 指示完成：
+          <ul>
+            <li>登入密碼設定</li>
+            <li>手機認證</li>
+          </ul>
+        </li>
+
+        <li>
+          完成設定後，即可使用 Student ID 登入 STEP。
+        </li>
+      </ul>
+
+
+      <h3>三、開始上課</h3>
+
+      <ol>
+        <li>
+          使用 Student ID 登入 STEP。
+        </li>
+
+        <li>
+          點選左側的 <strong>My course</strong>。
+        </li>
+
+        <li>
+          找到 SASH 課程後點選課程連結，
+          再點選 STEP 圖示進入課程。
+        </li>
+
+        <li>
+          點選課程圖示後即可開始線上學習。
+        </li>
+      </ol>
+
+
+      <h3>四、課程與測驗方式</h3>
+
+      <div class="scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>項目</th>
+              <th>說明</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>上課方式</td>
+              <td>非同步線上課程，可自行安排時間與學習進度。</td>
+            </tr>
+
+            <tr>
+              <td>課程時間</td>
+              <td>約 4 小時。</td>
+            </tr>
+
+            <tr>
+              <td>課程內容</td>
+              <td>共 3 個 Unit、25 個 Lesson，需依順序完成。</td>
+            </tr>
+
+            <tr>
+              <td>Unit 小測驗</td>
+              <td>
+                每個 Unit 最後皆有測驗，
+                <strong>須取得 100 分</strong>；
+                可重複作答直到通過。
+              </td>
+            </tr>
+
+            <tr>
+              <td>Final Assessment</td>
+              <td>
+                共 <strong>20 題選擇題</strong>，
+                每題 5 分。
+              </td>
+            </tr>
+
+            <tr>
+              <td>及格標準</td>
+              <td>
+                <strong>60 分</strong>。
+              </td>
+            </tr>
+
+            <tr>
+              <td>考試機會</td>
+              <td>
+                Final Assessment 共 <strong>2 次機會</strong>。
+              </td>
+            </tr>
+
+            <tr>
+              <td>兩次皆未通過</td>
+              <td>
+                不予發證，須重新付費報名課程。
+              </td>
+            </tr>
+
+            <tr>
+              <td>電子證書</td>
+              <td>
+                完成 Final Assessment 後，
+                約一週可至 STEP 網站下載電子證書。
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+      <div class="notice-box">
+        <h3>重要提醒</h3>
+        <ul>
+          <li>
+            登入 STEP 後，請至右上角個人資料頁面
+            <strong>上傳個人大頭照</strong>，供證書發證使用。
+          </li>
+          <li>
+            必須完成前一個 Unit 後，才能繼續下一個 Unit。
+          </li>
+          <li>
+            Unit 小測驗與 Final Assessment 題型相近，
+            建議先確實理解各 Unit 的測驗內容。
+          </li>
+        </ul>
+      </div>
+
+
+      <h3>五、SASH 題庫下載</h3>
+
+      <div class="downloads">
+
+        <div class="drow">
+          <div>
+            <h4>SASH 課程與測驗題庫</h4>
+            <p>
+              各 Unit 課程測驗題目
+            </p>
+          </div>
+
+          <a
+            class="download-btn"
+            href="../assets_cer_renewal/docs/singapore/SASH_Lesson Quiz.pdf"
+            download
+          >
+            SASH Lesson Quiz
+          </a>
+        </div>
+
+        <div class="drow">
+          <div>
+            <h4>SASH 課程與測驗題庫</h4>
+            <p>
+              Final Assessment 題目，供上課前後複習使用。
+            </p>
+          </div>
+
+          <a
+            class="download-btn"
+            href="../assets_cer_renewal/docs/singapore/SASH_Final Assessment.pdf"
+            download
+          >
+            Final Assessment 題目
+          </a>
+        </div>
+
+      </div>
+
+
+      <div class="notice-box">
+        <p>
+          <strong>提醒：</strong>
+          題庫僅供課程複習使用，Final Assessment 的答案請依課程內容自行判斷。
+        </p>
+      </div>
+
+    </div>
+  `,
+  "imgs": []
+},
     {
   "id": "sg_download",
   "parent": "sg",
