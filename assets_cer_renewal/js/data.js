@@ -345,228 +345,637 @@ const DATA = {
       ]
     },
 
-    {
+{
   "id": "sg_sash",
   "parent": "sg",
   "title": "SASH 小證｜上課與換證說明",
   "short": "新加坡 SASH 補差訓註冊、報名、上課、測驗及證書下載方式。",
   "keywords": "SASH 小證 新加坡 補差訓 性騷擾防治 反霸凌 MPA STEP Singapore Polytechnic SP PSSR CoC 線上課程 題庫 測驗 Final Assessment 電子證書",
+
   "html": `
     <div class="sash-guide">
 
-      <div class="notice-box">
-        <h3>為什麼需要 SASH 小證？</h3>
-        <p>
-          自 <strong>2026 年 1 月 1 日</strong>起，申請換發或重新核發新加坡適任證書
-          （CoC）時，須持有<strong>獨立 SASH（性騷擾防治與反霸凌）培訓證明</strong>，
-          或已完成納入 SASH 內容的新版 PSSR 課程。
-        </p>
-        <p>
-          現階段可透過 <strong>Singapore Polytechnic（SP）</strong> 的
-          <strong>STEP E-Learning</strong> 完成獨立 SASH 補差訓。
-        </p>
+      <div class="note">
+        <strong>適用情況：</strong>
+        自 2026 年 1 月 1 日起，申請換發或重新核發新加坡適任證書（CoC）時，
+        須具備獨立 SASH 培訓證明，或完成已納入 SASH 內容之新版 PSSR 課程。
+        現階段可透過 Singapore Polytechnic（SP）的 STEP E-Learning 完成補差訓。
       </div>
+
 
       <h3>一、註冊與課程申請</h3>
-      <ol>
-        <li>進入 Singapore Polytechnic 的 SASH 課程頁面，點選左下角 <strong>Register</strong>。</li>
-        <li>進入 STEP 課程頁面後，閱讀課程說明並點選 <strong>Apply</strong>。</li>
-        <li>新用戶依系統提示點選 <strong>Sign in / Sign up</strong>。</li>
-        <li>登入方式選擇 <strong>Sign in with Singpass / Student ID</strong>。</li>
-        <li>在 Singpass 選項下方點選 <strong>Login with Email OTP</strong>，輸入 Email、取得 OTP 並完成臨時登入。</li>
-        <li>首次登入後點選 <strong>manually update</strong> 填寫個人資料。</li>
-        <li>外籍學員：Citizenship type 選 <strong>Foreigner</strong>；Pass type 選 <strong>Others</strong>。</li>
-        <li>確認右上角已有登入身分後，回到課程頁再次點選 <strong>Apply</strong>。</li>
-      </ol>
 
-      <h3>二、申請、付款與 Student ID</h3>
-      <ol>
-        <li>非新加坡公民申請時，依頁面要求上傳護照個人資料頁。</li>
-        <li>完成資料後進入付款程序；STEP 會寄送付款通知 Email，請於申請當日完成付款以保留名額。</li>
-        <li>付款後等待審核；審核完成後 STEP 會寄送 <strong>Student ID</strong>，再依指示設定密碼與手機認證。</li>
-      </ol>
+      <p>
+        依序完成下列步驟；點開每一項即可查看操作說明與對應畫面。
+      </p>
 
-      <h3>三、開始學習</h3>
-      <ol>
-        <li>使用 Student ID 登入 STEP。</li>
-        <li>點選左側 <strong>My course</strong>，找到 SASH 課程並開啟課程連結。</li>
-        <li>進入課程後點選課程圖示開始學習。</li>
-      </ol>
 
-      <h3>四、課程與測驗方式</h3>
-      <div class="scroll">
-        <table>
-          <thead><tr><th>項目</th><th>說明</th></tr></thead>
-          <tbody>
-            <tr><td>上課方式</td><td>非同步線上課程，可依自己的時間與步調進行。</td></tr>
-            <tr><td>課程時間</td><td>約 4 小時。</td></tr>
-            <tr><td>課程內容</td><td>共 3 個 Unit、25 個 Lesson，須依序完成。</td></tr>
-            <tr><td>Unit 小測驗</td><td>每個 Unit 最後皆有小測驗，通過標準為 <strong>100 分</strong>，可多次嘗試至通過。</td></tr>
-            <tr><td>Final Assessment</td><td>共 <strong>20 題選擇題</strong>，每題 5 分；<strong>60 分及格</strong>。</td></tr>
-            <tr><td>考試機會</td><td>Final Assessment 共 <strong>2 次</strong>；兩次皆未及格則不發證，須重新付費報名。</td></tr>
-            <tr><td>電子證書</td><td>完成 Final Assessment 後約一週，可於 STEP 網站下載電子證書。</td></tr>
-          </tbody>
-        </table>
+      <div class="error-list">
+
+        <details class="error-item">
+          <summary>
+            <span class="error-no">01</span>
+            <span>進入課程頁面並點選 Register</span>
+            <span class="error-arrow">⌄</span>
+          </summary>
+
+          <div class="error-preview">
+
+            <p>
+              開啟 Singapore Polytechnic 的 SASH 課程頁面，
+              確認課程名稱後，點選左下角
+              <strong>Register</strong>。
+            </p>
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_1.png"
+              alt="SASH 步驟 1：課程首頁與 Register"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_1.png"
+            >
+
+          </div>
+        </details>
+
+
+
+        <details class="error-item">
+          <summary>
+            <span class="error-no">02</span>
+            <span>進入 STEP 後點選 Apply</span>
+            <span class="error-arrow">⌄</span>
+          </summary>
+
+          <div class="error-preview">
+
+            <p>
+              進入 STEP 課程申請頁面後，
+              可先閱讀課程相關說明，再點選左下角
+              <strong>Apply</strong>。
+            </p>
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_2.png"
+              alt="SASH 步驟 2：STEP 課程申請頁 Apply"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_2.png"
+            >
+
+          </div>
+        </details>
+
+
+
+        <details class="error-item">
+          <summary>
+            <span class="error-no">03</span>
+            <span>新用戶點選 Sign in / Sign up</span>
+            <span class="error-arrow">⌄</span>
+          </summary>
+
+          <div class="error-preview">
+
+            <p>
+              系統若顯示新用戶提示視窗，
+              點選 <strong>Sign in / Sign up</strong>
+              建立或登入帳號。
+            </p>
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_3.png"
+              alt="SASH 步驟 3：Sign in Sign up"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_3.png"
+            >
+
+          </div>
+        </details>
+
+
+
+        <details class="error-item">
+          <summary>
+            <span class="error-no">04</span>
+            <span>選擇 Sign in with Singpass / Student ID</span>
+            <span class="error-arrow">⌄</span>
+          </summary>
+
+          <div class="error-preview">
+
+            <p>
+              進入 STEP 登入頁面後，
+              選擇
+              <strong>Sign in with Singpass / Student ID</strong>。
+            </p>
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_4.png"
+              alt="SASH 步驟 4：Sign in with Singpass Student ID"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_4.png"
+            >
+
+          </div>
+        </details>
+
+
+
+        <details class="error-item">
+          <summary>
+            <span class="error-no">05</span>
+            <span>使用 Email OTP 完成臨時登入</span>
+            <span class="error-arrow">⌄</span>
+          </summary>
+
+          <div class="error-preview">
+
+            <p>
+              在 Singpass 選項下方點選
+              <strong>Login with Email OTP</strong>，
+              輸入 Email 後點選
+              <strong>Send OTP</strong>，
+              收到 OTP 碼後輸入並完成登入。
+            </p>
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_5.png"
+              alt="SASH 步驟 5：Login with Email OTP"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_5.png"
+            >
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_6.png"
+              alt="SASH 步驟 5：輸入 Email 與 OTP"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_6.png"
+            >
+
+          </div>
+        </details>
+
+
+
+        <details class="error-item">
+          <summary>
+            <span class="error-no">06</span>
+            <span>首次登入後更新個人資料</span>
+            <span class="error-arrow">⌄</span>
+          </summary>
+
+          <div class="error-preview">
+
+            <p>
+              臨時登入後需先填寫個人資料，
+              選擇頁面下方的
+              <strong>manually update</strong>。
+            </p>
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_7.png"
+              alt="SASH 步驟 6：manually update 個人資料"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_7.png"
+            >
+
+          </div>
+        </details>
+
+
+
+        <details class="error-item">
+          <summary>
+            <span class="error-no">07</span>
+            <span>外籍學員填寫 Foreigner / Others</span>
+            <span class="error-arrow">⌄</span>
+          </summary>
+
+          <div class="error-preview">
+
+            <p>
+              填寫所有紅色星號欄位；
+              <strong>Citizenship type</strong>
+              選擇
+              <strong>Foreigner</strong>，
+              <strong>Pass type</strong>
+              選擇
+              <strong>Others</strong>。
+            </p>
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_8.png"
+              alt="SASH 步驟 7：Foreigner Others 個人資料設定"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_8.png"
+            >
+
+          </div>
+        </details>
+
+
+
+        <details class="error-item">
+          <summary>
+            <span class="error-no">08</span>
+            <span>回到課程頁再次點選 Apply</span>
+            <span class="error-arrow">⌄</span>
+          </summary>
+
+          <div class="error-preview">
+
+            <p>
+              確認右上角已顯示登入身分後，
+              重新回到本課程的 STEP 申請頁面，
+              再次點選
+              <strong>Apply</strong>
+              申請課程。
+            </p>
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_9.png"
+              alt="SASH 步驟 8：回到課程頁再次 Apply"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_9.png"
+            >
+
+          </div>
+        </details>
+
       </div>
 
-      <div class="note">
-        <strong>提醒：</strong>請登入 STEP 後至右上角個人資料頁面上傳個人大頭照，供發證使用。
+
+
+      <h3>二、課程申請、付款與 Student ID</h3>
+
+      <div class="error-list">
+
+        <details class="error-item">
+          <summary>
+            <span class="error-no">09</span>
+            <span>上傳護照個人資料頁</span>
+            <span class="error-arrow">⌄</span>
+          </summary>
+
+          <div class="error-preview">
+
+            <p>
+              因非新加坡公民，
+              申請流程前兩個上傳文件的步驟，
+              皆依附件案例上傳
+              <strong>護照個人資料頁</strong>。
+            </p>
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_10.png"
+              alt="SASH 步驟 9：護照資料上傳"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_10.png"
+            >
+
+          </div>
+        </details>
+
+
+
+        <details class="error-item">
+          <summary>
+            <span class="error-no">10</span>
+            <span>完成付款並留意 Email 通知</span>
+            <span class="error-arrow">⌄</span>
+          </summary>
+
+          <div class="error-preview">
+
+            <p>
+              完成文件上傳後進入付款程序，
+              可選擇頁面提供的付款方式。
+              STEP 會寄送付款通知 Email，
+              請依通知於申請當日完成付款以保留參訓名額；
+              付款完成後亦會收到通知。
+            </p>
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_11.png"
+              alt="SASH 步驟 10：付款方式與 Email 通知"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_11.png"
+            >
+
+          </div>
+        </details>
+
+
+
+        <details class="error-item">
+          <summary>
+            <span class="error-no">11</span>
+            <span>取得 Student ID 並完成帳號設定</span>
+            <span class="error-arrow">⌄</span>
+          </summary>
+
+          <div class="error-preview">
+
+            <p>
+              付款後等待 STEP 審核。
+              審核完成後會以 Email 寄送
+              <strong>Student ID</strong>，
+              再依信件指示設定登入密碼與手機認證。
+              之後即可使用 Student ID 登入 STEP。
+            </p>
+
+            <p>
+              <strong>附件案例：</strong>
+              平日下午 4:30 完成付款，
+              晚上 7:30 收到 Student ID，
+              審核約 3 小時；
+              實際時間仍以 STEP 審核為準。
+            </p>
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_12.png"
+              alt="SASH 步驟 11：Student ID 與帳號設定"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_12.png"
+            >
+
+          </div>
+        </details>
+
       </div>
 
-      <h3>五、網站操作圖片範例</h3>
-      <p>以下依實際操作流程排列。預設收合，點選項目後才顯示圖片，避免手機頁面過長。</p>
-<h4>A. 註冊、登入與個人資料</h4>
-<div class="error-list">
-  <details class="error-item">
-    <summary><span class="error-no">01</span><span>課程首頁與 Register</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_1.png" alt="SASH 範例 1：課程首頁與 Register" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_1.png">
-    </div>
-  </details>
-  <details class="error-item">
-    <summary><span class="error-no">02</span><span>STEP 課程申請頁－Apply</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_2.png" alt="SASH 範例 2：STEP 課程申請頁－Apply" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_2.png">
-    </div>
-  </details>
-  <details class="error-item">
-    <summary><span class="error-no">03</span><span>新用戶 Sign in / Sign up 提示</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_3.png" alt="SASH 範例 3：新用戶 Sign in / Sign up 提示" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_3.png">
-    </div>
-  </details>
-  <details class="error-item">
-    <summary><span class="error-no">04</span><span>Sign in with Singpass / Student ID</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_4.png" alt="SASH 範例 4：Sign in with Singpass / Student ID" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_4.png">
-    </div>
-  </details>
-  <details class="error-item">
-    <summary><span class="error-no">05</span><span>Login with Email OTP</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_5.png" alt="SASH 範例 5：Login with Email OTP" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_5.png">
-    </div>
-  </details>
-  <details class="error-item">
-    <summary><span class="error-no">06</span><span>輸入 Email 與 OTP</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_6.png" alt="SASH 範例 6：輸入 Email 與 OTP" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_6.png">
-    </div>
-  </details>
-  <details class="error-item">
-    <summary><span class="error-no">07</span><span>首次登入－manually update 個人資料</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_7.png" alt="SASH 範例 7：首次登入－manually update 個人資料" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_7.png">
-    </div>
-  </details>
-  <details class="error-item">
-    <summary><span class="error-no">08</span><span>外籍學員個人資料設定</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_8.png" alt="SASH 範例 8：外籍學員個人資料設定" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_8.png">
-    </div>
-  </details>
-  <details class="error-item">
-    <summary><span class="error-no">09</span><span>回到課程頁重新 Apply</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_9.png" alt="SASH 範例 9：回到課程頁重新 Apply" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_9.png">
-    </div>
-  </details>
-</div>
-<h4>B. 申請、付款與 Student ID</h4>
-<div class="error-list">
-  <details class="error-item">
-    <summary><span class="error-no">10</span><span>申請課程－護照資料上傳</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_10.png" alt="SASH 範例 10：申請課程－護照資料上傳" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_10.png">
-    </div>
-  </details>
-  <details class="error-item">
-    <summary><span class="error-no">11</span><span>付款步驟、付款方式與 Email 通知</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_11.png" alt="SASH 範例 11：付款步驟、付款方式與 Email 通知" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_11.png">
-    </div>
-  </details>
-  <details class="error-item">
-    <summary><span class="error-no">12</span><span>Student ID 通知與帳號設定</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_12.png" alt="SASH 範例 12：Student ID 通知與帳號設定" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_12.png">
-    </div>
-  </details>
-</div>
-<h4>C. 登入 STEP 與開始上課</h4>
-<div class="error-list">
-  <details class="error-item">
-    <summary><span class="error-no">13</span><span>使用 Student ID 登入 STEP</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_13.png" alt="SASH 範例 13：使用 Student ID 登入 STEP" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_13.png">
-    </div>
-  </details>
-  <details class="error-item">
-    <summary><span class="error-no">14</span><span>My course 與課程連結</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_14.png" alt="SASH 範例 14：My course 與課程連結" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_14.png">
-    </div>
-  </details>
-  <details class="error-item">
-    <summary><span class="error-no">15</span><span>STEP 課程首頁</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_15.png" alt="SASH 範例 15：STEP 課程首頁" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_15.png">
-    </div>
-  </details>
-  <details class="error-item">
-    <summary><span class="error-no">16</span><span>開始課程與通過條件</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_16.png" alt="SASH 範例 16：開始課程與通過條件" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_16.png">
-    </div>
-  </details>
-</div>
-<h4>D. 課程內容與學習畫面</h4>
-<div class="error-list">
-  <details class="error-item">
-    <summary><span class="error-no">17</span><span>個人資料－上傳發證照片</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_17.png" alt="SASH 範例 17：個人資料－上傳發證照片" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_17.png">
-    </div>
-  </details>
-  <details class="error-item">
-    <summary><span class="error-no">18</span><span>Unit／Lesson 課程內容</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_18.png" alt="SASH 範例 18：Unit／Lesson 課程內容" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_18.png">
-    </div>
-  </details>
-  <details class="error-item">
-    <summary><span class="error-no">19</span><span>外部影片與教材下載</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_19.png" alt="SASH 範例 19：外部影片與教材下載" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_19.png">
-    </div>
-  </details>
-  <details class="error-item">
-    <summary><span class="error-no">20</span><span>互動式學習內容與小遊戲</span><span class="error-arrow">⌄</span></summary>
-    <div class="error-preview">
-      <p>點擊圖片可放大檢視。</p>
-      <img src="../assets_cer_renewal/docs/singapore/sash/SASH_20.png" alt="SASH 範例 20：互動式學習內容與小遊戲" data-full="../assets_cer_renewal/docs/singapore/sash/SASH_20.png">
-    </div>
-  </details>
-</div>
+
+
+      <h3>三、登入 STEP 與開始上課</h3>
+
+      <div class="error-list">
+
+        <details class="error-item">
+          <summary>
+            <span class="error-no">12</span>
+            <span>使用 Student ID 登入 STEP</span>
+            <span class="error-arrow">⌄</span>
+          </summary>
+
+          <div class="error-preview">
+
+            <p>
+              取得 Student ID 並完成密碼與手機認證後，
+              於登入頁面切換至
+              <strong>Student ID</strong>，
+              輸入帳號登入。
+            </p>
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_13.png"
+              alt="SASH 步驟 12：Student ID 登入 STEP"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_13.png"
+            >
+
+          </div>
+        </details>
+
+
+
+        <details class="error-item">
+          <summary>
+            <span class="error-no">13</span>
+            <span>從 My course 開啟 SASH 課程</span>
+            <span class="error-arrow">⌄</span>
+          </summary>
+
+          <div class="error-preview">
+
+            <p>
+              登入後點選左側
+              <strong>My course</strong>，
+              右側會出現已選課程；
+              點選 SASH 課程的連結標誌，
+              頁面跳轉後再選擇 STEP 圖示進入課程。
+            </p>
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_14.png"
+              alt="SASH 步驟 13：My course 與課程連結"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_14.png"
+            >
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_15.png"
+              alt="SASH 步驟 13：STEP 課程首頁"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_15.png"
+            >
+
+          </div>
+        </details>
+
+
+
+        <details class="error-item">
+          <summary>
+            <span class="error-no">14</span>
+            <span>開始課程並確認通過條件</span>
+            <span class="error-arrow">⌄</span>
+          </summary>
+
+          <div class="error-preview">
+
+            <p>
+              點選課程圖示開始學習。
+              課程開始前會顯示本次課程的完成與通過條件。
+            </p>
+
+            <div class="scroll">
+
+              <table>
+
+                <thead>
+                  <tr>
+                    <th>項目</th>
+                    <th>說明</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+
+                  <tr>
+                    <td>上課方式</td>
+                    <td>
+                      非同步線上課程，可依自己的時間與步調進行學習。
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>課程時間</td>
+                    <td>
+                      課程設計約 4 小時；
+                      附件案例實際完整觀看約 3.5～4 小時。
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>課程內容</td>
+                    <td>
+                      共 3 個 Unit；
+                      全部完成後進入 Final Assessment。
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>Unit 小測驗</td>
+                    <td>
+                      每個 Unit 最後皆有小測驗，
+                      通過標準為
+                      <strong>100 分</strong>，
+                      可多次嘗試直到通過。
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>Final Assessment</td>
+                    <td>
+                      共
+                      <strong>20 題選擇題</strong>，
+                      一頁一題，每題 5 分，
+                      <strong>60 分及格</strong>。
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>考試機會</td>
+                    <td>
+                      Final Assessment 共
+                      <strong>2 次</strong>；
+                      兩次皆未及格則不予發證，
+                      須重新付費報名課程。
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>電子證書</td>
+                    <td>
+                      Final Assessment 完成後約一週，
+                      可於 STEP 網站下載電子證書。
+                    </td>
+                  </tr>
+
+                </tbody>
+
+              </table>
+
+            </div>
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_16.png"
+              alt="SASH 步驟 14：開始課程與通過條件"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_16.png"
+            >
+
+          </div>
+        </details>
+
+      </div>
+
+
+
+      <h3>四、上課期間注意事項</h3>
+
+      <div class="error-list">
+
+        <details class="error-item">
+          <summary>
+            <span class="error-no">15</span>
+            <span>上傳個人大頭照供發證使用</span>
+            <span class="error-arrow">⌄</span>
+          </summary>
+
+          <div class="error-preview">
+
+            <p>
+              登入 STEP 後，
+              點選右上角頭像進入個人資料頁，
+              記得上傳個人大頭照，
+              供後續發證使用。
+            </p>
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_17.png"
+              alt="SASH 步驟 15：上傳發證照片"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_17.png"
+            >
+
+          </div>
+        </details>
+
+
+
+        <details class="error-item">
+          <summary>
+            <span class="error-no">16</span>
+            <span>依序完成 3 個 Unit、共 25 個 Lesson</span>
+            <span class="error-arrow">⌄</span>
+          </summary>
+
+          <div class="error-preview">
+
+            <p>
+              課程可從左側章節列表選擇要學習或複習的內容；
+              全部共有
+              <strong>3 個 Unit、25 個 Lesson</strong>，
+              須完成前一個 Unit 後才能進入下一個 Unit。
+            </p>
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_18.png"
+              alt="SASH 步驟 16：Unit 與 Lesson 課程內容"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_18.png"
+            >
+
+          </div>
+        </details>
+
+
+
+        <details class="error-item">
+          <summary>
+            <span class="error-no">17</span>
+            <span>觀看外部影片與下載課程資料</span>
+            <span class="error-arrow">⌄</span>
+          </summary>
+
+          <div class="error-preview">
+
+            <p>
+              除系統內影片外，
+              課程亦包含外部連結影片及可下載資料。
+              系統內影片可加速播放，
+              也可將語音轉為文字稿閱讀。
+            </p>
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_19.png"
+              alt="SASH 步驟 17：外部影片與教材下載"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_19.png"
+            >
+
+          </div>
+        </details>
+
+
+
+        <details class="error-item">
+          <summary>
+            <span class="error-no">18</span>
+            <span>互動式內容與課程小遊戲</span>
+            <span class="error-arrow">⌄</span>
+          </summary>
+
+          <div class="error-preview">
+
+            <p>
+              課程中包含互動式小遊戲與圖文內容，
+              可搭配各 Unit 小測驗複習。
+              小測驗與 Final Assessment 題型相近，
+              建議先確實理解各 Unit 內容再進行最終評估。
+            </p>
+
+            <img
+              src="../assets_cer_renewal/docs/singapore/sash/SASH_20.png"
+              alt="SASH 步驟 18：互動式學習內容與小遊戲"
+              data-full="../assets_cer_renewal/docs/singapore/sash/SASH_20.png"
+            >
+
+          </div>
+        </details>
+
+      </div>
 
       <h3>六、SASH 題庫下載</h3>
 
