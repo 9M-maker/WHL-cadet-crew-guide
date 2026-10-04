@@ -20,10 +20,7 @@ const DATA = {
       "title": "訓練紀錄簿撰寫注意事項",
       "desc": "從第一條船開始填寫，到滿 365 日後送審，請務必閱讀常見錯誤範例。",
       "children": [
-        "tr_start",
-        "tr_sign",
-        "tr_final",
-        "tr_fix",
+        "tr_attention",
         "tr_submit",
         "tr_official",
         "tr_errors"
