@@ -434,6 +434,14 @@ const DATA = {
         現階段可透過 Singapore Polytechnic（SP）的 STEP E-Learning 完成補差訓。
       </div>
 
+<h3>
+  Singapore Polytechnic 網頁連結：
+  <a href="https://stms.polite.edu.sg/student/ihlcourse/detail/601aef3a-8c98-4d34-9f3c-a8e74c9dc66e"
+     target="_blank"
+     rel="noopener noreferrer">
+    請點我
+  </a>
+</h3>
 
       <h3>一、註冊與課程申請</h3>
 
