@@ -14,7 +14,7 @@ const RESOURCE_LINKS = [
       {
         type: "preview",
         label: "下載熟悉訓練單         (需簽回給PIC)",
-        url: "../assets_company_resources/docs/1.【台籍船員請列印並簽名】. 船員職前熟悉訓練單(TW)  -202608版.pdf",
+        url: "../assets_company_resources/docs/1.【台籍船員請列印並簽名】船員職前熟悉訓練單(TW) -202611版.pdf",
         fileName: "船員職前熟悉訓練單(TW)-202608版.pdf"
       },
       {
